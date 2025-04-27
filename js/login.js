@@ -1,7 +1,7 @@
 window.addEventListener('pageshow', () => {
   const currentUser = JSON.parse(localStorage.getItem('currentUser'));
   if(currentUser)
-    localStorage.removeItem('currentUser');
+    window.location.href = '../home.html';
 });
 
 const form = document.getElementById('form');
