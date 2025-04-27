@@ -1,0 +1,2 @@
+# Simple User Authentication
+<P>I have created three pages login, register and home page to practice simple user authentication using HTML, CSS and JavaScript. The flow is first the user have to register and then the register users can only login and redirect to the home page. I use localStorage to handle multiple users data.</p>
